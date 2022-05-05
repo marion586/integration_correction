@@ -1,0 +1,210 @@
+/* line 1, ../sass/base/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans" , sans-serif;
+}
+
+/* line 2, ../sass/module/_header.scss */
+.home__header-contact {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, ../sass/module/_header.scss */
+.home__header-contact .header-contact-container {
+  margin: 0;
+  display: flex;
+  background-color: #135e96;
+  justify-content: center;
+}
+/* line 14, ../sass/module/_header.scss */
+.home__header-contact .header-contact-item {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+/* line 19, ../sass/module/_header.scss */
+.home__header-contact .header-contact-item:nth-child(2) {
+  background-color: #f39c12;
+  display: flex;
+  justify-content: center;
+}
+/* line 24, ../sass/module/_header.scss */
+.home__header-contact .header-contact-text {
+  padding-left: 10px;
+  color: #fff;
+  font-weight: 500;
+}
+/* line 29, ../sass/module/_header.scss */
+.home__header-contact .header-contact-link {
+  text-decoration: none;
+  display: flex;
+}
+/* line 33, ../sass/module/_header.scss */
+.home__header-contact .header-contact-icon {
+  display: inline-flex;
+}
+/* line 41, ../sass/module/_header.scss */
+.home__header .header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+}
+/* line 46, ../sass/module/_header.scss */
+.home__header .header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+/* line 51, ../sass/module/_header.scss */
+.home__header .header-menu {
+  display: flex;
+  align-items: center;
+}
+/* line 55, ../sass/module/_header.scss */
+.home__header .header-item {
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 30px;
+  list-style-type: none;
+}
+/* line 61, ../sass/module/_header.scss */
+.home__header .isactive::after {
+  content: "";
+  transition: width 0.25s ease;
+  position: absolute;
+  bottom: -55px;
+  left: 0px;
+  z-index: 10;
+  height: 5px;
+  width: 100%;
+  background-color: #f39c12;
+}
+/* line 72, ../sass/module/_header.scss */
+.home__header .header-link {
+  text-decoration: none;
+  color: #135e96;
+}
+/* line 77, ../sass/module/_header.scss */
+.home__header .social-network {
+  display: flex;
+  align-items: center;
+}
+/* line 82, ../sass/module/_header.scss */
+.home__header .fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 12px;
+  border-radius: 50%;
+}
+/* line 92, ../sass/module/_header.scss */
+.home__header .fa:hover {
+  opacity: 0.7;
+}
+/* line 96, ../sass/module/_header.scss */
+.home__header .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* line 101, ../sass/module/_header.scss */
+.home__header .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* line 106, ../sass/module/_header.scss */
+.home__header .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* line 115, ../sass/module/_header.scss */
+.home__section-banner {
+  background: linear-gradient(to bottom, rgba(36, 83, 176, 0.5), rgba(38, 124, 161, 0.6)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 123, ../sass/module/_header.scss */
+.home__section-banner .section-banner-container {
+  padding: 150px 180px;
+}
+/* line 126, ../sass/module/_header.scss */
+.home__section-banner .section-banner-title {
+  font-weight: 800;
+  font-size: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 132, ../sass/module/_header.scss */
+.home__section-banner .section-banner-content {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+/* line 137, ../sass/module/_header.scss */
+.home__section-banner .section-button-element {
+  padding: 15px 40px;
+  font-size: 15px;
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: 30px;
+  display: inline-block;
+  color: #000;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+/* line 149, ../sass/module/_header.scss */
+.home__section-banner .section-banner-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 90px;
+}
+/* line 155, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item {
+  width: 423px;
+  background: #fff;
+  padding: 77px 52px;
+  box-sizing: border-box;
+  height: 472px;
+}
+/* line 162, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item:nth-child(3) {
+  background: #f39c12;
+  opacity: 0.7;
+  margin-top: 80px;
+}
+/* line 167, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item:nth-child(1) {
+  margin-top: 50px;
+}
+/* line 171, ../sass/module/_header.scss */
+.home__section-banner .card-item-logo {
+  margin-bottom: 42px;
+}
+/* line 174, ../sass/module/_header.scss */
+.home__section-banner .card-item-title {
+  text-transform: uppercase;
+  color: #135e96;
+}
+/* line 178, ../sass/module/_header.scss */
+.home__section-banner .card-item-footer {
+  display: flex;
+  align-items: center;
+  color: yellow;
+  margin-top: 47px;
+  font-weight: bold;
+}
+/* line 185, ../sass/module/_header.scss */
+.home__section-banner .card-item-arrow {
+  width: 16px;
+  margin-left: 20px;
+}
+/* line 193, ../sass/module/_header.scss */
+.home__section-banner .section-banner-information {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 850px;
+}

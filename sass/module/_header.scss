@@ -1,0 +1,201 @@
+.home {
+    &__header-contact{
+
+        margin: 0;
+        padding: 0;
+
+        .header-contact-container {
+            margin: 0;
+            display: flex;
+            background-color: $color1;
+            justify-content: center;
+        }
+        
+        .header-contact-item{
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header-contact-item:nth-child(2){
+            background-color: $color2;
+            display: flex;
+            justify-content: center;
+        }
+        .header-contact-text {
+            padding-left: 10px;
+            color: #fff;
+            font-weight: 500;
+        }
+       .header-contact-link {
+           text-decoration: none;
+           display: flex;
+       }
+       .header-contact-icon {
+           display: inline-flex;
+       }
+    }
+
+    // header navigation
+
+    &__header {
+        .header-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 35px;
+        }
+        .header-logo {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        .header-menu {
+            display: flex;
+            align-items: center;
+        }
+        .header-item {
+            position: relative;
+            text-transform: uppercase;
+            margin: 0 30px;
+            list-style-type: none;  
+        }
+        .isactive::after {
+            content: "";
+            transition: width 0.25s ease;
+            position: absolute;
+            bottom: -55px;
+            left: 0px;
+            z-index: 10;
+            height: 5px;
+            width: 100%;
+            background-color: $color2;
+        }
+        .header-link {
+            text-decoration: none;
+            color: $color1;
+            
+        }
+        .social-network {
+            display: flex;
+            align-items: center;
+        }
+
+        .fa {
+            padding: 10px;
+            font-size: 25px;
+            width: 25px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 12px;
+            border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        
+        
+    }
+
+    // banner section
+    &__section-banner {
+        
+        
+        background: linear-gradient(to bottom, rgba(36, 83, 176, 0.5), rgba(38, 124, 161, 0.6)),
+        url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
+        background-size: cover;
+        @include clearfix;
+
+        .section-banner-container{
+             padding: 150px 180px;
+        }
+        .section-banner-title {
+            font-weight: 800;
+            font-size: 70px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .section-banner-content {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 25px;
+        }
+        .section-button-element {
+            padding: 15px 40px;
+            font-size: 15px;
+            color: #FFF;
+            text-transform: uppercase;
+            line-height: 30px;
+            display: inline-block;
+            color: #000;
+            margin-right: 50px;
+            margin-top: 30px;
+        }
+
+        .section-banner-card{
+            display: flex;
+            justify-content: space-around;
+            margin: 0 90px;
+        }
+
+        .banner-card-item {
+            width: 423px;
+            background: #fff;
+            padding: 77px 52px;
+            box-sizing: border-box;
+            height: 472px;
+        }
+        .banner-card-item:nth-child(3) {
+            background: $color2;
+            opacity: 0.7;
+            margin-top: 80px;
+        }
+        .banner-card-item:nth-child(1) {
+            
+            margin-top: 50px;
+        }
+        .card-item-logo {
+            margin-bottom: 42px;
+        }
+        .card-item-title {
+            text-transform: uppercase;
+            color: $color1;
+        }
+        .card-item-footer {
+            display: flex;
+            align-items: center;
+            color: yellow;
+            margin-top: 47px;
+            font-weight: bold;
+        }
+        .card-item-arrow {
+            width: 16px;
+            margin-left: 20px;
+        }
+
+        
+        //section banner information
+
+        .section-banner-information {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 850px;
+        }
+    }
+
+}
