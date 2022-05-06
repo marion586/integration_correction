@@ -119,31 +119,37 @@ body {
   background: #007bb5;
   color: white;
 }
-/* line 115, ../sass/module/_header.scss */
+/* line 114, ../sass/module/_header.scss */
+.home__container {
+  width: 80%;
+  margin: auto;
+}
+/* line 119, ../sass/module/_header.scss */
 .home__section-banner {
+  height: 100vh;
   background: linear-gradient(to bottom, rgba(36, 83, 176, 0.5), rgba(38, 124, 161, 0.6)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
   background-size: cover;
-  overflow: hidden;
-  *zoom: 1;
+  min-height: 900px;
+  height: 100vh;
 }
-/* line 123, ../sass/module/_header.scss */
+/* line 127, ../sass/module/_header.scss */
 .home__section-banner .section-banner-container {
-  padding: 150px 180px;
+  padding: 160px 0;
 }
-/* line 126, ../sass/module/_header.scss */
+/* line 131, ../sass/module/_header.scss */
 .home__section-banner .section-banner-title {
   font-weight: 800;
   font-size: 70px;
   color: #fff;
   text-transform: uppercase;
 }
-/* line 132, ../sass/module/_header.scss */
+/* line 137, ../sass/module/_header.scss */
 .home__section-banner .section-banner-content {
   color: #fff;
   text-transform: capitalize;
   font-size: 25px;
 }
-/* line 137, ../sass/module/_header.scss */
+/* line 142, ../sass/module/_header.scss */
 .home__section-banner .section-button-element {
   padding: 15px 40px;
   font-size: 15px;
@@ -155,56 +161,129 @@ body {
   margin-right: 50px;
   margin-top: 30px;
 }
-/* line 149, ../sass/module/_header.scss */
+/* line 154, ../sass/module/_header.scss */
 .home__section-banner .section-banner-card {
   display: flex;
-  justify-content: space-around;
-  margin: 0 90px;
+  justify-content: space-between;
+  min-height: 470px;
 }
-/* line 155, ../sass/module/_header.scss */
+/* line 161, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item {
-  width: 423px;
+  width: 400px;
   background: #fff;
   padding: 77px 52px;
   box-sizing: border-box;
-  height: 472px;
+  position: relative;
 }
-/* line 162, ../sass/module/_header.scss */
-.home__section-banner .banner-card-item:nth-child(3) {
+/* line 169, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item:hover {
+  transform: translateY(50px);
+  transition: width 2s ease;
   background: #f39c12;
   opacity: 0.7;
-  margin-top: 80px;
 }
-/* line 167, ../sass/module/_header.scss */
-.home__section-banner .banner-card-item:nth-child(1) {
-  margin-top: 50px;
+/* line 175, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item:hover .card-item-title {
+  color: #fff;
 }
-/* line 171, ../sass/module/_header.scss */
+/* line 178, ../sass/module/_header.scss */
+.home__section-banner .banner-card-item:hover .card-item-content {
+  color: #fff;
+}
+/* line 183, ../sass/module/_header.scss */
 .home__section-banner .card-item-logo {
   margin-bottom: 42px;
 }
-/* line 174, ../sass/module/_header.scss */
+/* line 186, ../sass/module/_header.scss */
 .home__section-banner .card-item-title {
   text-transform: uppercase;
   color: #135e96;
 }
-/* line 178, ../sass/module/_header.scss */
+/* line 190, ../sass/module/_header.scss */
 .home__section-banner .card-item-footer {
   display: flex;
   align-items: center;
   color: yellow;
-  margin-top: 47px;
+  margin-top: 77px;
   font-weight: bold;
+  position: absolute;
+  bottom: 25px;
 }
-/* line 185, ../sass/module/_header.scss */
+/* line 199, ../sass/module/_header.scss */
 .home__section-banner .card-item-arrow {
   width: 16px;
   margin-left: 20px;
 }
-/* line 193, ../sass/module/_header.scss */
-.home__section-banner .section-banner-information {
+/* line 210, ../sass/module/_header.scss */
+.home__section-information {
+  background: linear-gradient(to bottom, rgba(13, 46, 112, 0.8), rgba(8, 75, 103, 0.8)), url(../../img/Groupe\ 42/banner2.png) center top no-repeat;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  min-height: 900px;
+}
+/* line 220, ../sass/module/_header.scss */
+.home__section-information .section-banner-information {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+}
+/* line 228, ../sass/module/_header.scss */
+.home__section-information .section-button-element {
+  padding: 15px 40px;
+  font-size: 15px;
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: 30px;
+  display: inline-block;
+  color: #000;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+/* line 239, ../sass/module/_header.scss */
+.home__section-information .banner-information-title {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+/* line 243, ../sass/module/_header.scss */
+.home__section-information .section-information-content {
+  margin: 80px 0;
+}
+/* line 247, ../sass/module/_header.scss */
+.home__section-information .banner-information-subtitle {
+  padding: 0 30px;
+  font-size: 16px;
+}
+/* line 251, ../sass/module/_header.scss */
+.home__section-information .banner-information-content {
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-indent: 50px;
+}
+/* line 259, ../sass/module/_header.scss */
+.home__section-information .banner-information-menu {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 850px;
+  margin: 30px 10px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+/* line 267, ../sass/module/_header.scss */
+.home__section-information .banner-information-item {
+  display: flex;
+}
+/* line 271, ../sass/module/_header.scss */
+.home__section-information .banner-information-link {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+/* line 277, ../sass/module/_header.scss */
+.home__section-information .banner-information-icon {
+  display: inline-flex;
+  margin-right: 8px;
 }
