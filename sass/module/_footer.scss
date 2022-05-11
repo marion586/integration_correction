@@ -1,0 +1,116 @@
+.home {
+    &__footer {
+        display: flex;
+        position: relative;
+        background-color: $color1;
+        background: linear-gradient(to bottom, rgba(15, 43, 99, 0.92), rgba(8, 34, 85, 0.92));
+        padding: 100px;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        h2 
+        {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 18px;
+            padding: 20px 0;
+        }
+
+        .footer-contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        .footer-contact ul li {
+            font-weight: 600;
+        }
+
+        .footer-contact-item {
+            margin: 20px 0;
+        }
+        .footer-contact-item a {
+            display: flex;
+        }
+        .footer-contact-item a span {
+            display: inline-flex;
+            margin-left: 10px;
+        }
+        
+       
+        .footer-lien-utile ul li {
+            margin: 15px 0;
+            font-weight: 600;
+        }
+        .footer-logo-certifications ul {
+            display: flex;
+
+        }
+        .footer-logo-certifications ul li img {
+
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        .footer-social-network .social-network {
+            display: flex;
+        }
+
+
+        .fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 12px;
+            border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .footer-boutton {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: $color2;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 89px;
+            right: 22px;
+        }
+        .footer-boutton:hover {
+            opacity: 0.7;
+        }
+    }
+}
