@@ -5,70 +5,70 @@ body {
   font-family: "Open Sans" , sans-serif;
 }
 
-/* line 2, ../sass/module/_header.scss */
-.home__header-contact {
+/* line 6, ../sass/base/_base.scss */
+figure {
   margin: 0;
-  padding: 0;
 }
-/* line 7, ../sass/module/_header.scss */
+
+/* line 6, ../sass/module/_header.scss */
 .home__header-contact .header-contact-container {
   margin: 0;
   display: flex;
   background-color: #135e96;
   justify-content: center;
 }
-/* line 14, ../sass/module/_header.scss */
+/* line 13, ../sass/module/_header.scss */
 .home__header-contact .header-contact-item {
   padding: 15px 20px;
   display: flex;
   align-items: center;
 }
-/* line 19, ../sass/module/_header.scss */
+/* line 18, ../sass/module/_header.scss */
 .home__header-contact .header-contact-item:nth-child(2) {
   background-color: #f39c12;
   display: flex;
   justify-content: center;
 }
-/* line 24, ../sass/module/_header.scss */
+/* line 23, ../sass/module/_header.scss */
 .home__header-contact .header-contact-text {
   padding-left: 10px;
   color: #fff;
   font-weight: 500;
 }
-/* line 29, ../sass/module/_header.scss */
+/* line 28, ../sass/module/_header.scss */
 .home__header-contact .header-contact-link {
   text-decoration: none;
   display: flex;
 }
-/* line 33, ../sass/module/_header.scss */
+/* line 32, ../sass/module/_header.scss */
 .home__header-contact .header-contact-icon {
   display: inline-flex;
 }
-/* line 41, ../sass/module/_header.scss */
+/* line 40, ../sass/module/_header.scss */
 .home__header .header-navigation {
   display: flex;
   justify-content: space-between;
   padding: 20px 35px;
 }
-/* line 46, ../sass/module/_header.scss */
+/* line 45, ../sass/module/_header.scss */
 .home__header .header-logo {
   display: flex;
   align-items: center;
   justify-content: start;
 }
-/* line 51, ../sass/module/_header.scss */
+/* line 50, ../sass/module/_header.scss */
 .home__header .header-menu {
   display: flex;
   align-items: center;
 }
-/* line 55, ../sass/module/_header.scss */
+/* line 54, ../sass/module/_header.scss */
 .home__header .header-item {
   position: relative;
   text-transform: uppercase;
   margin: 0 30px;
   list-style-type: none;
 }
-/* line 61, ../sass/module/_header.scss */
+/* line 60, ../sass/module/_header.scss */
 .home__header .isactive::after {
   content: "";
   transition: width 0.25s ease;
@@ -80,17 +80,17 @@ body {
   width: 100%;
   background-color: #f39c12;
 }
-/* line 72, ../sass/module/_header.scss */
+/* line 71, ../sass/module/_header.scss */
 .home__header .header-link {
   text-decoration: none;
   color: #135e96;
 }
-/* line 77, ../sass/module/_header.scss */
+/* line 76, ../sass/module/_header.scss */
 .home__header .social-network {
   display: flex;
   align-items: center;
 }
-/* line 82, ../sass/module/_header.scss */
+/* line 81, ../sass/module/_header.scss */
 .home__header .fa {
   padding: 10px;
   font-size: 25px;
@@ -100,31 +100,31 @@ body {
   margin: 5px 12px;
   border-radius: 50%;
 }
-/* line 92, ../sass/module/_header.scss */
+/* line 91, ../sass/module/_header.scss */
 .home__header .fa:hover {
   opacity: 0.7;
 }
-/* line 96, ../sass/module/_header.scss */
+/* line 95, ../sass/module/_header.scss */
 .home__header .fa-facebook {
   background: #3B5998;
   color: white;
 }
-/* line 101, ../sass/module/_header.scss */
+/* line 100, ../sass/module/_header.scss */
 .home__header .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-/* line 106, ../sass/module/_header.scss */
+/* line 105, ../sass/module/_header.scss */
 .home__header .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-/* line 114, ../sass/module/_header.scss */
+/* line 113, ../sass/module/_header.scss */
 .home__container {
   width: 80%;
   margin: auto;
 }
-/* line 119, ../sass/module/_header.scss */
+/* line 118, ../sass/module/_header.scss */
 .home__section-banner {
   height: 100vh;
   background: linear-gradient(to bottom, rgba(36, 83, 176, 0.5), rgba(38, 124, 161, 0.6)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
@@ -132,24 +132,24 @@ body {
   min-height: 900px;
   height: 100vh;
 }
-/* line 127, ../sass/module/_header.scss */
+/* line 126, ../sass/module/_header.scss */
 .home__section-banner .section-banner-container {
   padding: 160px 0;
 }
-/* line 131, ../sass/module/_header.scss */
+/* line 130, ../sass/module/_header.scss */
 .home__section-banner .section-banner-title {
   font-weight: 800;
   font-size: 70px;
   color: #fff;
   text-transform: uppercase;
 }
-/* line 137, ../sass/module/_header.scss */
+/* line 136, ../sass/module/_header.scss */
 .home__section-banner .section-banner-content {
   color: #fff;
   text-transform: capitalize;
   font-size: 25px;
 }
-/* line 142, ../sass/module/_header.scss */
+/* line 141, ../sass/module/_header.scss */
 .home__section-banner .section-button-element {
   padding: 15px 40px;
   font-size: 15px;
@@ -161,24 +161,25 @@ body {
   margin-right: 50px;
   margin-top: 30px;
 }
-/* line 154, ../sass/module/_header.scss */
+/* line 153, ../sass/module/_header.scss */
 .home__section-banner .section-banner-card {
   display: flex;
   justify-content: space-between;
   min-height: 470px;
 }
-/* line 161, ../sass/module/_header.scss */
+/* line 160, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item {
   width: 400px;
   background: #fff;
   padding: 77px 52px;
   box-sizing: border-box;
   position: relative;
+  transition: transform 0.5s ease;
 }
 /* line 169, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item:hover {
-  transform: translateY(50px);
-  transition: width 2s ease;
+  transform: translateY(-50px);
+  transition: transform 0.5s ease;
   background: #f39c12;
   opacity: 0.7;
 }
@@ -217,12 +218,11 @@ body {
 /* line 210, ../sass/module/_header.scss */
 .home__section-information {
   background: linear-gradient(to bottom, rgba(13, 46, 112, 0.8), rgba(8, 75, 103, 0.8)), url(../../img/Groupe\ 42/banner2.png) center top no-repeat;
-  margin: 0;
-  padding: 0;
   background-size: cover;
   min-height: 900px;
+  padding: 112px 0;
 }
-/* line 220, ../sass/module/_header.scss */
+/* line 219, ../sass/module/_header.scss */
 .home__section-information .section-banner-information {
   width: 50%;
   margin: auto;
@@ -230,7 +230,7 @@ body {
   padding-top: 300px;
   color: white;
 }
-/* line 228, ../sass/module/_header.scss */
+/* line 227, ../sass/module/_header.scss */
 .home__section-information .section-button-element {
   padding: 15px 40px;
   font-size: 15px;
@@ -242,21 +242,21 @@ body {
   margin-right: 50px;
   margin-top: 30px;
 }
-/* line 239, ../sass/module/_header.scss */
+/* line 238, ../sass/module/_header.scss */
 .home__section-information .banner-information-title {
   font-size: 50px;
   text-transform: capitalize;
 }
-/* line 243, ../sass/module/_header.scss */
+/* line 242, ../sass/module/_header.scss */
 .home__section-information .section-information-content {
   margin: 80px 0;
 }
-/* line 247, ../sass/module/_header.scss */
+/* line 246, ../sass/module/_header.scss */
 .home__section-information .banner-information-subtitle {
   padding: 0 30px;
   font-size: 16px;
 }
-/* line 251, ../sass/module/_header.scss */
+/* line 250, ../sass/module/_header.scss */
 .home__section-information .banner-information-content {
   padding: 0 30px;
   font-size: 16px;
@@ -264,26 +264,429 @@ body {
   text-align: center;
   text-indent: 50px;
 }
-/* line 259, ../sass/module/_header.scss */
+/* line 258, ../sass/module/_header.scss */
 .home__section-information .banner-information-menu {
   display: flex;
   margin: 30px 10px;
   list-style-type: none;
   justify-content: space-between;
 }
-/* line 267, ../sass/module/_header.scss */
+/* line 266, ../sass/module/_header.scss */
 .home__section-information .banner-information-item {
   display: flex;
 }
-/* line 271, ../sass/module/_header.scss */
+/* line 270, ../sass/module/_header.scss */
 .home__section-information .banner-information-link {
   display: flex;
   text-decoration: none;
   color: white;
   font-weight: 700;
 }
-/* line 277, ../sass/module/_header.scss */
+/* line 276, ../sass/module/_header.scss */
 .home__section-information .banner-information-icon {
   display: inline-flex;
   margin-right: 8px;
+}
+
+/* line 4, ../sass/module/_section.scss */
+.home__service {
+  margin-top: 50px;
+}
+/* line 6, ../sass/module/_section.scss */
+.home__service .service-title {
+  text-align: center;
+  line-height: 1;
+}
+/* line 11, ../sass/module/_section.scss */
+.home__service .service-start-point {
+  width: 20px;
+  height: 20px;
+  background-color: #f39c12;
+  margin: auto;
+}
+/* line 17, ../sass/module/_section.scss */
+.home__service .service-title-subtitle {
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+/* line 23, ../sass/module/_section.scss */
+.home__service .service-title-content {
+  font-size: 70px;
+  color: #135e96;
+  margin-top: -5px;
+}
+/* line 30, ../sass/module/_section.scss */
+.home__service-gallery {
+  width: 100%;
+}
+/* line 32, ../sass/module/_section.scss */
+.home__service-gallery .service-gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  width: 92%;
+  padding: 150px 0;
+  margin: auto;
+}
+/* line 40, ../sass/module/_section.scss */
+.home__service-gallery .service-start-item {
+  position: relative;
+  display: flex;
+  justify-content: start;
+}
+/* line 46, ../sass/module/_section.scss */
+.home__service-gallery .service-start-item:nth-child(2) .service-gallery-icon {
+  display: flex;
+  justify-content: end;
+}
+/* line 51, ../sass/module/_section.scss */
+.home__service-gallery .service-end-item {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+/* line 58, ../sass/module/_section.scss */
+.home__service-gallery .service-gallery-image {
+  width: 69%;
+  margin: 0;
+}
+/* line 63, ../sass/module/_section.scss */
+.home__service-gallery .service-gallery-item .service-gallery-image img {
+  width: 100%;
+}
+/* line 66, ../sass/module/_section.scss */
+.home__service-gallery .service-end-item .service-gallery-couverture {
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+/* line 74, ../sass/module/_section.scss */
+.home__service-gallery .service-start-item .service-gallery-couverture {
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+/* line 81, ../sass/module/_section.scss */
+.home__service-gallery .service-gallery-icon img {
+  width: 125px;
+  margin-bottom: 40px;
+}
+/* line 85, ../sass/module/_section.scss */
+.home__service-gallery .service-gallery-content {
+  background: #f39c12;
+  padding: 27px 86px;
+  background-color: #f39c12;
+  opacity: 0.9;
+  color: aliceblue;
+  line-height: 1;
+}
+/* line 95, ../sass/module/_section.scss */
+.home__actualite {
+  padding-top: 150px;
+  background: linear-gradient(to bottom, rgba(9, 24, 56, 0.916), rgba(11, 54, 73, 0.922)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
+  background-size: cover;
+  min-height: 900px;
+}
+/* line 101, ../sass/module/_section.scss */
+.home__actualite .actualite-title {
+  text-align: center;
+  line-height: 1;
+}
+/* line 106, ../sass/module/_section.scss */
+.home__actualite .actualite-start-point {
+  width: 20px;
+  height: 20px;
+  background-color: #f39c12;
+  margin: auto;
+}
+/* line 113, ../sass/module/_section.scss */
+.home__actualite .actualite-title-subtitle {
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+/* line 119, ../sass/module/_section.scss */
+.home__actualite .actualite-title-content {
+  font-size: 70px;
+  color: white;
+  margin-top: -5px;
+}
+/* line 126, ../sass/module/_section.scss */
+.home__actualite .actualite-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+/* line 131, ../sass/module/_section.scss */
+.home__actualite .actualite-item {
+  width: 93%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-height: 509px;
+  margin: 30px 0;
+}
+/* line 140, ../sass/module/_section.scss */
+.home__actualite .actualite-image {
+  width: 100%;
+  height: 245px;
+  border-radius: 15px 15px 0 0;
+}
+/* line 145, ../sass/module/_section.scss */
+.home__actualite .actualite-item-content {
+  padding: 0 20px;
+}
+/* line 149, ../sass/module/_section.scss */
+.home__actualite .actualite-item-info {
+  display: flex;
+  align-items: center;
+}
+/* line 155, ../sass/module/_section.scss */
+.home__actualite .actualite-info-content {
+  padding-left: 20px;
+  line-height: 10px;
+}
+/* line 160, ../sass/module/_section.scss */
+.home__actualite .actualite-item-logo {
+  height: 52px;
+  width: 53px;
+  background-color: gray;
+}
+/* line 168, ../sass/module/_section.scss */
+.home__actualite .actualite-item-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px  25px;
+  color: grey;
+}
+/* line 175, ../sass/module/_section.scss */
+.home__actualite .actualite-client-feedback {
+  display: inline-flex;
+}
+/* line 180, ../sass/module/_section.scss */
+.home__actualite .fa {
+  padding-right: 20px;
+}
+/* line 183, ../sass/module/_section.scss */
+.home__actualite .fa span {
+  margin-left: 5px;
+}
+/* line 189, ../sass/module/_section.scss */
+.home__actualite .actualite-button {
+  text-align: center;
+  padding: 115px;
+}
+/* line 193, ../sass/module/_section.scss */
+.home__actualite .section-button-element {
+  padding: 20px;
+  text-transform: uppercase;
+  background: #393f58;
+  color: #fff;
+  font-weight: 600;
+}
+/* line 205, ../sass/module/_section.scss */
+.home__temoignage {
+  margin-top: 50px;
+  padding: 60px 0;
+}
+/* line 208, ../sass/module/_section.scss */
+.home__temoignage .temoignage-title {
+  text-align: center;
+  line-height: 1;
+}
+/* line 213, ../sass/module/_section.scss */
+.home__temoignage .temoignage-start-point {
+  width: 20px;
+  height: 20px;
+  background-color: #f39c12;
+  margin: auto;
+}
+/* line 220, ../sass/module/_section.scss */
+.home__temoignage .temoignage-title-subtitle {
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+/* line 227, ../sass/module/_section.scss */
+.home__temoignage .temoignage-title-content {
+  font-size: 70px;
+  color: #135e96;
+  padding: 40px;
+  margin-top: -5px;
+}
+/* line 234, ../sass/module/_section.scss */
+.home__temoignage .temoignage-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+/* line 241, ../sass/module/_section.scss */
+.home__temoignage .temoignage-item {
+  display: flex;
+  height: 158px;
+}
+/* line 248, ../sass/module/_section.scss */
+.home__temoignage .temoignage-item-content {
+  width: 414px;
+  margin-left: 60px;
+}
+/* line 254, ../sass/module/_section.scss */
+.home__temoignage .fa-quote-right {
+  color: #f39c12;
+  font-size: 30px;
+}
+/* line 258, ../sass/module/_section.scss */
+.home__temoignage .temoignage-item-media {
+  display: flex;
+  align-items: center;
+  margin-top: -26px;
+}
+/* line 265, ../sass/module/_section.scss */
+.home__temoignage .temoignage-item-count {
+  font-size: 18px;
+  color: dimgray;
+}
+/* line 272, ../sass/module/_section.scss */
+.home__temoignage .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 12px;
+  border-radius: 50%;
+}
+/* line 284, ../sass/module/_section.scss */
+.home__temoignage .temoignage-button {
+  text-align: center;
+  padding: 115px;
+}
+/* line 289, ../sass/module/_section.scss */
+.home__temoignage .section-button-element {
+  padding: 20px;
+  text-transform: uppercase;
+  background: #393f58;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* line 2, ../sass/module/_footer.scss */
+.home__footer {
+  display: flex;
+  position: relative;
+  background-color: #135e96;
+  background: linear-gradient(to bottom, rgba(15, 43, 99, 0.92), rgba(8, 34, 85, 0.92));
+  padding: 100px;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+/* line 13, ../sass/module/_footer.scss */
+.home__footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* line 18, ../sass/module/_footer.scss */
+.home__footer a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 22, ../sass/module/_footer.scss */
+.home__footer h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px 0;
+}
+/* line 30, ../sass/module/_footer.scss */
+.home__footer .footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+/* line 36, ../sass/module/_footer.scss */
+.home__footer .footer-contact ul li {
+  font-weight: 600;
+}
+/* line 40, ../sass/module/_footer.scss */
+.home__footer .footer-contact-item {
+  margin: 20px 0;
+}
+/* line 43, ../sass/module/_footer.scss */
+.home__footer .footer-contact-item a {
+  display: flex;
+}
+/* line 46, ../sass/module/_footer.scss */
+.home__footer .footer-contact-item a span {
+  display: inline-flex;
+  margin-left: 10px;
+}
+/* line 52, ../sass/module/_footer.scss */
+.home__footer .footer-lien-utile ul li {
+  margin: 15px 0;
+  font-weight: 600;
+}
+/* line 56, ../sass/module/_footer.scss */
+.home__footer .footer-logo-certifications ul {
+  display: flex;
+}
+/* line 60, ../sass/module/_footer.scss */
+.home__footer .footer-logo-certifications ul li img {
+  height: 50px;
+  margin-right: 20px;
+}
+/* line 66, ../sass/module/_footer.scss */
+.home__footer .footer-social-network .social-network {
+  display: flex;
+}
+/* line 71, ../sass/module/_footer.scss */
+.home__footer .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 12px;
+  border-radius: 50%;
+}
+/* line 81, ../sass/module/_footer.scss */
+.home__footer .fa:hover {
+  opacity: 0.7;
+}
+/* line 85, ../sass/module/_footer.scss */
+.home__footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* line 90, ../sass/module/_footer.scss */
+.home__footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* line 95, ../sass/module/_footer.scss */
+.home__footer .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* line 100, ../sass/module/_footer.scss */
+.home__footer .footer-boutton {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #f39c12;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 89px;
+  right: 22px;
+}
+/* line 112, ../sass/module/_footer.scss */
+.home__footer .footer-boutton:hover {
+  opacity: 0.7;
 }

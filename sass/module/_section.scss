@@ -1,0 +1,297 @@
+// service 
+
+.home{
+    &__service{
+        margin-top: 50px;
+        .service-title {
+            text-align: center; 
+            line-height: 1;    
+        }
+
+        .service-start-point {
+            width:20px;
+            height: 20px;
+            background-color: $color2;
+            margin: auto
+        }
+        .service-title-subtitle {
+            color: grey;
+            text-transform: uppercase;
+            margin-top: 50px;
+
+        }
+        .service-title-content  {
+            font-size: 70px;
+            color: $color1;
+            margin-top: -5px;
+        }
+    }
+
+    &__service-gallery{
+        width: 100%;
+        .service-gallery-container{
+            display: flex;
+            flex-direction: column;
+            gap: 200px;
+            width: 92%;
+            padding: 150px 0;
+            margin: auto;
+        }
+        .service-start-item {
+            position: relative;
+            display: flex;
+            justify-content: start;
+        }
+
+        .service-start-item:nth-child(2) .service-gallery-icon {
+            display: flex;
+            justify-content: end;
+        }
+        
+        .service-end-item {
+            position: relative;
+            display: flex;
+            justify-content: end;
+        }
+
+        
+        .service-gallery-image {
+            width: 69%;
+            margin: 0;
+        }
+
+        .service-gallery-item .service-gallery-image img {
+            width: 100%;
+        }
+        .service-end-item .service-gallery-couverture {
+            width: 40%;
+            position: absolute;
+            top: 25%;
+            left: 0;
+            
+        }
+
+        .service-start-item .service-gallery-couverture {
+            width: 40%;
+            position: absolute;
+            top: 25%;
+            right: 0;
+        
+        }
+        .service-gallery-icon img {
+            width: 125px;
+            margin-bottom: 40px;
+        }
+        .service-gallery-content {
+            background: $color2;
+            padding: 27px 86px;
+            background-color: $color2;
+            opacity: 0.9;
+            color: aliceblue;
+            line-height: 1;
+        }
+    }
+
+    &__actualite {
+        padding-top: 150px;
+        background: linear-gradient(to bottom, rgba(9, 24, 56, 0.916), rgba(11, 54, 73, 0.922)),
+        url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
+        background-size: cover;
+        min-height: 900px;
+        .actualite-title {
+            text-align: center;
+            line-height: 1;
+        }
+        
+        .actualite-start-point {
+            width: 20px;
+            height: 20px;
+            background-color: $color2;
+            margin: auto
+        }
+        
+        .actualite-title-subtitle {
+            color: grey;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        
+        .actualite-title-content {
+            font-size: 70px;
+            color: white;
+            margin-top: -5px;
+        }
+
+        // actualite content
+        .actualite-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+        .actualite-item {
+            width: 93%;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            min-height: 509px;
+            margin: 30px 0 ;
+        }
+        
+        .actualite-image {
+            width: 100%;
+            height: 245px;
+            border-radius: 15px 15px 0 0;
+        }
+        .actualite-item-content {
+            padding: 0 20px;
+        }
+
+        .actualite-item-info {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .actualite-info-content {
+            padding-left: 20px;
+            line-height: 10px;
+        }
+
+        .actualite-item-logo {
+            height: 52px;
+            width: 53px;
+            background-color: gray;
+        }
+
+
+        //footer 
+        .actualite-item-footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px  25px;
+            color: grey;
+
+        }
+        .actualite-client-feedback 
+        {
+            display: inline-flex;
+        }
+
+         .fa {
+            padding-right: 20px;
+        }
+        .fa span {
+            margin-left: 5px;
+        }
+
+
+        // bouton
+        .actualite-button {
+            text-align: center;
+            padding: 115px;
+        }
+        .section-button-element {
+            padding: 20px;
+            text-transform: uppercase;
+            background: rgb(57, 63, 88);
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+
+
+    // temoignage
+
+        &__temoignage {
+            margin-top: 50px;
+            padding: 60px 0;
+            .temoignage-title {
+                text-align: center;
+                line-height: 1;
+            }
+        
+            .temoignage-start-point {
+                width: 20px;
+                height: 20px;
+                background-color: $color2;
+                margin: auto
+            }
+        
+            .temoignage-title-subtitle {
+                color: grey;
+                text-transform: uppercase;
+                margin-top: 50px;
+        
+            }
+        
+            .temoignage-title-content {
+                font-size: 70px;
+                color: $color1;
+                padding: 40px;
+                margin-top: -5px;
+            }
+
+            .temoignage-wrapper {
+                display: flex;
+                justify-content: space-around;
+                padding: 50px;
+                gap: 40px;
+                flex-wrap: wrap;
+            }
+            .temoignage-item
+            {
+
+                display: flex;
+                height: 158px;  
+            }
+
+            .temoignage-item-content {
+                width: 414px;
+                margin-left: 60px;
+                
+            }
+
+            .fa-quote-right {
+                color: $color2;
+                font-size: 30px;
+            }
+            .temoignage-item-media {
+                display: flex;
+                align-items: center;
+                 margin-top: -26px;
+                    
+            }
+
+            .temoignage-item-count {
+                font-size: 18px;
+                color: dimgray;
+            }
+
+            
+            
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+
+                padding: 5px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 12px;
+                border-radius: 50%;
+            }
+
+            // bouton
+            .temoignage-button {
+                text-align: center;
+                padding: 115px;
+            }
+            
+            .section-button-element {
+                padding: 20px;
+                text-transform: uppercase;
+                background: rgb(57, 63, 88);
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+}
