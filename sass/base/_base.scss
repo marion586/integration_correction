@@ -6,3 +6,7 @@ body{
  figure {
      margin :0;
  }
+
+a[class*="button"]:hover {
+     background-color: rgba(128, 128, 128, 0.516) !important;
+ }

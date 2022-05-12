@@ -55,13 +55,19 @@
             position: relative;
             text-transform: uppercase;
             margin: 0 30px;
-            list-style-type: none;  
+            list-style-type: none; 
+            padding: 10px;
+        }
+        .header-item:hover {
+            transition: background 0.3s ease;
+            border-radius: 5px 0 5px 0;
+            background: rgba(255, 170, 0, 0.413);
         }
         .isactive::after {
             content: "";
             transition: width 0.25s ease;
             position: absolute;
-            bottom: -55px;
+            bottom: -42px;
             left: 0px;
             z-index: 10;
             height: 5px;
@@ -154,6 +160,8 @@
             display: flex;
             justify-content: space-between  ;
             min-height: 470px;
+            gap: 20px;
+            flex-wrap: wrap;
         }
         
 

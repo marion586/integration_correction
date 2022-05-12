@@ -127,9 +127,11 @@
             display: flex;
             justify-content: space-between;
             margin-top: 100px;
+            gap: 20px;
+            flex-wrap: wrap;
         }
         .actualite-item {
-            width: 93%;
+            width: 314px;
             background-color: #fff;
             border-radius: 15px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -237,18 +239,19 @@
                 padding: 50px;
                 gap: 40px;
                 flex-wrap: wrap;
+                margin: auto;
+                width: 100%;
             }
             .temoignage-item
             {
 
-                display: flex;
-                height: 158px;  
+                display: flex; 
+                gap: 30px;
+                flex-wrap: wrap;
             }
 
             .temoignage-item-content {
                 width: 414px;
-                margin-left: 60px;
-                
             }
 
             .fa-quote-right {
