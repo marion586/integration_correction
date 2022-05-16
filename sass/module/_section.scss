@@ -94,6 +94,7 @@
 
     &__actualite {
         padding-top: 150px;
+        padding-bottom: 150px;
         background: linear-gradient(to bottom, rgba(9, 24, 56, 0.916), rgba(11, 54, 73, 0.922)),
         url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
         background-size: cover;
@@ -107,7 +108,7 @@
             width: 20px;
             height: 20px;
             background-color: $color2;
-            margin: auto
+            margin: auto;
         }
         
         .actualite-title-subtitle {
@@ -129,6 +130,7 @@
             margin-top: 100px;
             gap: 20px;
             flex-wrap: wrap;
+            padding-bottom: 50px;
         }
         .actualite-item {
             width: 314px;
@@ -188,16 +190,20 @@
 
 
         // bouton
-        .actualite-button {
-            text-align: center;
-            padding: 115px;
-        }
         .section-button-element {
-            padding: 20px;
-            text-transform: uppercase;
             background: rgb(57, 63, 88);
-            color: #fff;
-            font-weight: 600;
+            padding: 15px;
+            display: flex;
+            margin: auto;
+            border: none;
+        }
+        
+        .section-button-element a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            font-size: 18px;
         }
     }
 
@@ -249,6 +255,14 @@
                 gap: 30px;
                 flex-wrap: wrap;
             }
+            .temoignage-item figure {
+                width: 170px;
+                height: 170px;
+            }
+            .temoignage-item figure img {
+                width: 100%;
+                height: 100%;
+            }
 
             .temoignage-item-content {
                 width: 414px;
@@ -289,12 +303,22 @@
                 padding: 115px;
             }
             
+            // bouton
             .section-button-element {
-                padding: 20px;
-                text-transform: uppercase;
                 background: rgb(57, 63, 88);
-                color: #fff;
-                font-weight: 600;
+                padding: 15px;
+                display: flex;
+                margin: auto;
+                border: none;
             }
+            
+            .section-button-element a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+                font-weight: 400;
+                font-size: 18px;
+            }   
+            
         }
 }

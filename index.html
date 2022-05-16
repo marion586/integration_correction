@@ -102,6 +102,12 @@
                     </i>
                 </a>
             </ul>
+
+            <div class="toggle">
+                <i class="fa fa-bars">
+
+                </i>
+            </div>
         </nav>
     </header>
 
@@ -137,9 +143,9 @@
                 <figure class="card-item-logo">
                     <img src="img/Groupe 42/roof.svg" alt="">
                 </figure>
-                <h1 class="card-item-title">
+                <h3 class="card-item-title">
                     couvertures
-                </h1>
+                </h3>
                 <p class="card-item-content">
                     Depuis 1998 , Sarl valois se met au service particuliers et proféssionnels pour la création et renovation de 
                     couverture poses des fenêtre de toits et changement de tuiles
@@ -160,9 +166,9 @@
                 <figure class="card-item-logo">
                     <img src="img/Groupe 42/pipe.svg" alt="">
                 </figure>
-                <h1 class="card-item-title">
+                <h3 class="card-item-title">
                     couvertures
-                </h1>
+                </h3>
                 <p class="card-item-content">
                     Depuis 1998 , Sarl valois se met au service particuliers et proféssionnels pour la création et renovation de
                     couverture poses des fenêtre de toits et changement de tuiles
@@ -183,9 +189,9 @@
                 <figure class="card-item-logo">
                     <img src="img/Groupe 42/roofdemouss.svg" alt="">
                 </figure>
-                <h1 class="card-item-title">
+                <h3 class="card-item-title">
                     couvertures
-                </h1>
+                </h3>
                 <p class="card-item-content">
                     Depuis 1998 , Sarl valois se met au service particuliers et proféssionnels pour la création et renovation de
                     couverture poses des fenêtre de toits et changement de tuiles
@@ -210,9 +216,9 @@
     <section class="home__section-information">
         
         <div class="section-banner-information">
-            <h1 class="banner-information-title">
+            <h3 class="banner-information-title">
                 histoire de savoir faire depuis 1998
-            </h1>
+            </h3>
         
             <div class="section-information-content">
                 <h5 class="banner-information-subtitle">
@@ -298,9 +304,9 @@
                 Découvrez nos
             </h3>
 
-            <h1 class="service-title-content">
+            <h3 class="service-title-content">
                 Nos services 
-            </h1>
+            </h3>
 
         </div>
 
@@ -320,9 +326,9 @@
                         </figure>
                 
                         <div class="service-gallery-content">
-                            <h1 class="servire-gallery-title">
+                            <h3 class="servire-gallery-title">
                                 Demoussage
-                            </h1>
+                            </h3>
                 
                             <p> Le demoussage de toiture permet d'éliminer les parasites sur votre couverture, de limiter la repousse
                                 des micro-organismes et de prévenir des infiltrations d'eau.</p> <br>
@@ -359,9 +365,9 @@
                         </figure>
                 
                         <div class="service-gallery-content">
-                            <h1 class="servire-gallery-title">
+                            <h3 class="servire-gallery-title">
                                 Demoussage
-                            </h1>
+                            </h3>
                 
                             <p> Le demoussage de toiture permet d'éliminer les parasites sur votre couverture, de limiter la repousse
                                 des micro-organismes et de prévenir des infiltrations d'eau.</p> <br>
@@ -397,9 +403,9 @@
                         </figure>
                 
                         <div class="service-gallery-content">
-                            <h1 class="servire-gallery-title">
+                            <h3 class="servire-gallery-title">
                                 Demoussage
-                            </h1>
+                            </h3>
                 
                             <p> Le demoussage de toiture permet d'éliminer les parasites sur votre couverture, de limiter la repousse
                                 des micro-organismes et de prévenir des infiltrations d'eau.</p> <br>
@@ -437,9 +443,9 @@
                 Découvrez Nos
             </h3>
         
-            <h1 class="actualite-title-content">
+            <h2 class="actualite-title-content">
                 Actualités
-            </h1>
+            </h2>
         
         </div>
 
@@ -852,15 +858,11 @@
         </div>
 
 
-        <div class="actualite-button ">
-            <div class="section-button">
-                <span>
-                    <a class="section-button-element" >
-                        tous les actualites
-                    </a>
-                </span>
-            </div>
-        </div>
+        <button class="section-button-element">
+            <span>
+                <a href="#">tous les actualités</a>
+            </span>
+        </button>
     </section>
 
 
@@ -877,9 +879,9 @@
                 Nos Témoignages
             </h3>
         
-            <h1 class="temoignage-title-content">
+            <h2 class="temoignage-title-content">
                 Ils nous font confiance
-            </h1>
+            </h2>
         
         </div>
 
@@ -934,15 +936,11 @@
                 
         </div>
 
-        <div class="temoignage-button ">
-            <div class="section-button">
-                <span>
-                    <a class="section-button-element">
-                        tous les témoignages
-                    </a>
-                </span>
-            </div>
-        </div>
+        <button class="section-button-element">
+            <span>
+                <a href="#">tous les temoingnages</a>
+            </span>
+        </button>
     </section>
 
     <footer class="home__footer">
@@ -1079,5 +1077,15 @@
            e.target.add('isactive')
        }
     </script> -->
+
+    <script>
+        let menuBtn = document.querySelector('.toggle')
+        let navList = document.querySelector('.home__header .header-menu')
+
+        menuBtn.addEventListener('click', () => {
+            console.log('active');
+            navList.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
