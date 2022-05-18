@@ -5,10 +5,10 @@
         background-color: $color1;
         background: linear-gradient(to bottom, rgba(15, 43, 99, 0.92), rgba(8, 34, 85, 0.92));
         padding: 100px;
-        justify-content: space-between;
-        gap: 40px;
+        justify-content: space-around;
+        gap: 13px;
         flex-wrap: wrap;
-
+        padding: 16px;
 
         ul {
             list-style-type: none;
@@ -106,7 +106,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            bottom: 89px;
+            bottom: 12px;
             right: 22px;
         }
         .footer-boutton:hover {

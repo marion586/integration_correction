@@ -11,3 +11,11 @@ body{
 a[class*="button"]:hover {
      background-color: rgba(128, 128, 128, 0.516) !important;
  }
+
+ a {
+     text-decoration: 0;
+ }
+
+button:hover {
+    background: rgba(128, 128, 128, 0.524)!important;
+}

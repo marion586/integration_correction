@@ -21,7 +21,7 @@
 
         }
         .service-title-content  {
-            font-size: 70px;
+            font-size: 4vmax;
             color: $color1;
             margin-top: -5px;
         }
@@ -34,8 +34,9 @@
             flex-direction: column;
             gap: 200px;
             width: 92%;
-            padding: 150px 0;
+            padding: 50px 0;
             margin: auto;
+            padding-bottom: 150px;
         }
         .service-start-item {
             position: relative;
@@ -58,10 +59,12 @@
         .service-gallery-image {
             width: 69%;
             margin: 0;
+            height: 480px;
         }
 
         .service-gallery-item .service-gallery-image img {
             width: 100%;
+            height: 100%;
         }
         .service-end-item .service-gallery-couverture {
             width: 40%;
@@ -74,7 +77,7 @@
         .service-start-item .service-gallery-couverture {
             width: 40%;
             position: absolute;
-            top: 25%;
+            top: 16%;
             right: 0;
         
         }
@@ -84,7 +87,7 @@
         }
         .service-gallery-content {
             background: $color2;
-            padding: 27px 86px;
+            padding: 20px 30px;
             background-color: $color2;
             opacity: 0.9;
             color: aliceblue;
@@ -118,7 +121,7 @@
         }
         
         .actualite-title-content {
-            font-size: 70px;
+            font-size: 4vmax;
             color: white;
             margin-top: -5px;
         }
@@ -126,7 +129,7 @@
         // actualite content
         .actualite-wrapper {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             margin-top: 100px;
             gap: 20px;
             flex-wrap: wrap;
@@ -233,7 +236,7 @@
             }
         
             .temoignage-title-content {
-                font-size: 70px;
+                font-size: 4vmax;
                 color: $color1;
                 padding: 40px;
                 margin-top: -5px;
@@ -242,18 +245,19 @@
             .temoignage-wrapper {
                 display: flex;
                 justify-content: space-around;
-                padding: 50px;
                 gap: 40px;
                 flex-wrap: wrap;
                 margin: auto;
-                width: 100%;
+                width: 82%;
             }
             .temoignage-item
             {
 
-                display: flex; 
+                display: inline-flex; 
                 gap: 30px;
                 flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
             }
             .temoignage-item figure {
                 width: 170px;
@@ -322,3 +326,61 @@
             
         }
 }
+
+
+@media only screen and (max-width:830px) {
+    .home__actualite .actualite-wrapper {
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .home__service-gallery .service-gallery-image {
+        width: 100%;
+        margin: auto;
+    }
+    .home__service-gallery .service-end-item ,
+    .home__service-gallery .service-start-item
+    {
+        display: block;
+    }
+
+    .home__service-gallery .service-gallery-content {
+        background: #f39c12;
+        background-color: rgb(243, 156, 18);
+        padding: 6px 31px;
+        background-color: #f39c12;
+        opacity: 0.9;
+        color: aliceblue;
+        line-height: 1;
+        font-size: 14px;
+    }
+
+    .home__service-gallery .service-end-item .service-gallery-couverture ,
+    .home__service-gallery .service-start-item .service-gallery-couverture
+    {
+        width: 100%;
+        position: static;
+    }
+
+    .home__service-gallery .service-gallery-icon,
+    .home__service-gallery .service-start-item:nth-child(2) .service-gallery-icon 
+    {
+        display: none;
+    }
+
+    .home__service-gallery .service-gallery-container {
+        gap:100px
+    }
+    .home__service-gallery .service-gallery-image {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .home__service-gallery .service-gallery-image {
+        height: 230px;
+    }
+}
+
