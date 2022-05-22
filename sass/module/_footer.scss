@@ -1,11 +1,14 @@
 .home {
+    &__footer>* {
+        padding: 0 40px;
+    }
     &__footer {
         display: flex;
         position: relative;
         background-color: $color1;
         background: linear-gradient(to bottom, rgba(15, 43, 99, 0.92), rgba(8, 34, 85, 0.92));
         padding: 100px;
-        justify-content: space-around;
+        justify-content: start;
         gap: 13px;
         flex-wrap: wrap;
         padding: 16px;
@@ -114,3 +117,14 @@
         }
     }
 }
+@media only screen and (max-width:650px) {
+    .home__footer {
+        padding: 16px 10%;
+    }
+}
+
+// @media only screen and (min-width:700px) {
+//     .home__footer {
+//         justify-content: center;
+//     }
+// }

@@ -32,70 +32,71 @@ button:hover {
   display: flex;
   background-color: #135e96;
   justify-content: center;
+  padding: 0;
 }
-/* line 13, ../sass/module/_header.scss */
+/* line 14, ../sass/module/_header.scss */
 .home__header-contact .header-contact-item {
   padding: 15px 20px;
   display: flex;
   align-items: center;
 }
-/* line 18, ../sass/module/_header.scss */
+/* line 19, ../sass/module/_header.scss */
 .home__header-contact .header-contact-item:nth-child(2) {
   background-color: #f39c12;
   display: flex;
   justify-content: center;
 }
-/* line 23, ../sass/module/_header.scss */
+/* line 24, ../sass/module/_header.scss */
 .home__header-contact .header-contact-text {
   padding-left: 10px;
   color: #fff;
   font-weight: 500;
 }
-/* line 28, ../sass/module/_header.scss */
+/* line 29, ../sass/module/_header.scss */
 .home__header-contact .header-contact-link {
   text-decoration: none;
   display: flex;
 }
-/* line 32, ../sass/module/_header.scss */
+/* line 33, ../sass/module/_header.scss */
 .home__header-contact .header-contact-icon {
   display: inline-flex;
 }
 @media only screen and (max-width: 900px) {
-  /* line 37, ../sass/module/_header.scss */
+  /* line 38, ../sass/module/_header.scss */
   .home__header-contact .header-contact-text {
     display: none;
   }
 }
-/* line 46, ../sass/module/_header.scss */
+/* line 47, ../sass/module/_header.scss */
 .home__header .header-navigation {
   display: flex;
   justify-content: space-between;
   padding: 20px 35px;
 }
-/* line 53, ../sass/module/_header.scss */
+/* line 54, ../sass/module/_header.scss */
 .home__header .header-logo {
   display: flex;
   align-items: center;
   justify-content: start;
 }
-/* line 58, ../sass/module/_header.scss */
+/* line 59, ../sass/module/_header.scss */
 .home__header .header-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2vmax;
 }
-/* line 64, ../sass/module/_header.scss */
+/* line 65, ../sass/module/_header.scss */
 .home__header .toggle {
   font-size: 40px;
   display: none;
 }
 @media only screen and (max-width: 1181px) {
-  /* line 71, ../sass/module/_header.scss */
+  /* line 72, ../sass/module/_header.scss */
   .home__header .header-menu.active {
     margin-top: 0;
   }
-  /* line 74, ../sass/module/_header.scss */
+  /* line 75, ../sass/module/_header.scss */
   .home__header .header-menu {
     position: absolute;
     top: 0;
@@ -105,7 +106,7 @@ button:hover {
     width: 100%;
     height: 100vh;
     margin: auto;
-    margin-top: -1000px;
+    margin-top: -1216px;
     transition: margin 0.5s ease-in-out;
     -moz-transition: margin 0.5s ease-in-out;
     z-index: 3;
@@ -114,29 +115,29 @@ button:hover {
     padding: 0;
     padding-top: 80px;
   }
-  /* line 92, ../sass/module/_header.scss */
+  /* line 93, ../sass/module/_header.scss */
   .home__header .isactive::after {
     display: none;
   }
-  /* line 95, ../sass/module/_header.scss */
+  /* line 96, ../sass/module/_header.scss */
   .home__header .second-header-image {
     width: 149px;
   }
-  /* line 98, ../sass/module/_header.scss */
+  /* line 99, ../sass/module/_header.scss */
   .home__header .toggle {
     display: block;
     z-index: 100;
   }
-  /* line 102, ../sass/module/_header.scss */
+  /* line 103, ../sass/module/_header.scss */
   .home__header .header-item a {
     color: white;
   }
-  /* line 105, ../sass/module/_header.scss */
+  /* line 106, ../sass/module/_header.scss */
   .home__header .home__header-contact {
     display: none;
   }
 }
-/* line 111, ../sass/module/_header.scss */
+/* line 112, ../sass/module/_header.scss */
 .home__header .header-item {
   position: relative;
   text-transform: uppercase;
@@ -144,18 +145,18 @@ button:hover {
   padding: 10px;
 }
 @media only screen and (max-width: 1591px) {
-  /* line 120, ../sass/module/_header.scss */
+  /* line 121, ../sass/module/_header.scss */
   .home__header .header-item .header-link {
     font-size: 14px;
   }
 }
-/* line 124, ../sass/module/_header.scss */
+/* line 125, ../sass/module/_header.scss */
 .home__header .header-item:hover {
   transition: background 0.3s ease;
   border-radius: 5px 0 5px 0;
   background: rgba(255, 170, 0, 0.413);
 }
-/* line 129, ../sass/module/_header.scss */
+/* line 130, ../sass/module/_header.scss */
 .home__header .isactive::after {
   content: "";
   transition: width 0.25s ease;
@@ -167,23 +168,23 @@ button:hover {
   width: 100%;
   background-color: #f39c12;
 }
-/* line 140, ../sass/module/_header.scss */
+/* line 141, ../sass/module/_header.scss */
 .home__header .header-link {
   text-decoration: none;
   color: #135e96;
 }
-/* line 145, ../sass/module/_header.scss */
+/* line 146, ../sass/module/_header.scss */
 .home__header .social-network {
   display: flex;
   align-items: center;
 }
 @media only screen and (max-width: 1470px) {
-  /* line 150, ../sass/module/_header.scss */
+  /* line 151, ../sass/module/_header.scss */
   .home__header .social-network {
     display: none;
   }
 }
-/* line 155, ../sass/module/_header.scss */
+/* line 156, ../sass/module/_header.scss */
 .home__header .fa {
   padding: 10px;
   font-size: 25px;
@@ -193,55 +194,55 @@ button:hover {
   margin: 5px 12px;
   border-radius: 50%;
 }
-/* line 165, ../sass/module/_header.scss */
+/* line 166, ../sass/module/_header.scss */
 .home__header .fa:hover {
   opacity: 0.7;
 }
-/* line 169, ../sass/module/_header.scss */
+/* line 170, ../sass/module/_header.scss */
 .home__header .fa-facebook {
   background: #3B5998;
   color: white;
 }
-/* line 174, ../sass/module/_header.scss */
+/* line 175, ../sass/module/_header.scss */
 .home__header .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-/* line 179, ../sass/module/_header.scss */
+/* line 180, ../sass/module/_header.scss */
 .home__header .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-/* line 187, ../sass/module/_header.scss */
+/* line 188, ../sass/module/_header.scss */
 .home__container {
   width: 80%;
   margin: auto;
 }
-/* line 193, ../sass/module/_header.scss */
+/* line 194, ../sass/module/_header.scss */
 .home__section-banner {
   height: 100vh;
   background: linear-gradient(to bottom, rgba(36, 83, 176, 0.5), rgba(38, 124, 161, 0.6)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
   background-size: cover;
-  min-height: 900px;
+  min-height: 600px;
 }
-/* line 203, ../sass/module/_header.scss */
+/* line 204, ../sass/module/_header.scss */
 .home__section-banner .section-banner-container {
   padding: 160px 0;
 }
-/* line 208, ../sass/module/_header.scss */
+/* line 209, ../sass/module/_header.scss */
 .home__section-banner .section-banner-title {
   font-weight: 800;
   font-size: 70px;
   color: #fff;
   text-transform: uppercase;
 }
-/* line 214, ../sass/module/_header.scss */
+/* line 215, ../sass/module/_header.scss */
 .home__section-banner .section-banner-content {
   color: #fff;
   text-transform: capitalize;
   font-size: 25px;
 }
-/* line 222, ../sass/module/_header.scss */
+/* line 223, ../sass/module/_header.scss */
 .home__section-banner .section-banner-card {
   display: flex;
   justify-content: space-between;
@@ -249,7 +250,7 @@ button:hover {
   gap: 50px;
   flex-wrap: wrap;
 }
-/* line 231, ../sass/module/_header.scss */
+/* line 232, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item {
   width: 400px;
   background: #fff;
@@ -258,31 +259,31 @@ button:hover {
   position: relative;
   transition: transform 0.5s ease;
 }
-/* line 240, ../sass/module/_header.scss */
+/* line 241, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item:hover {
   transform: translateY(-50px);
   transition: transform 0.5s ease;
   background: #f39c12;
   opacity: 0.7;
 }
-/* line 246, ../sass/module/_header.scss */
+/* line 247, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item:hover .card-item-title {
   color: #fff;
 }
-/* line 249, ../sass/module/_header.scss */
+/* line 250, ../sass/module/_header.scss */
 .home__section-banner .banner-card-item:hover .card-item-content {
   color: #fff;
 }
-/* line 254, ../sass/module/_header.scss */
+/* line 255, ../sass/module/_header.scss */
 .home__section-banner .card-item-logo {
   margin-bottom: 42px;
 }
-/* line 257, ../sass/module/_header.scss */
+/* line 258, ../sass/module/_header.scss */
 .home__section-banner .card-item-title {
   text-transform: uppercase;
   color: #135e96;
 }
-/* line 261, ../sass/module/_header.scss */
+/* line 262, ../sass/module/_header.scss */
 .home__section-banner .card-item-footer {
   display: flex;
   align-items: center;
@@ -292,27 +293,27 @@ button:hover {
   position: absolute;
   bottom: 25px;
 }
-/* line 270, ../sass/module/_header.scss */
+/* line 271, ../sass/module/_header.scss */
 .home__section-banner .card-item-arrow {
   width: 16px;
   margin-left: 20px;
 }
-/* line 281, ../sass/module/_header.scss */
+/* line 282, ../sass/module/_header.scss */
 .home__section-information {
   background: linear-gradient(to bottom, rgba(13, 46, 112, 0.8), rgba(8, 75, 103, 0.8)), url(../../img/Groupe\ 42/banner2.png) center top no-repeat;
   background-size: cover;
-  min-height: 900px;
+  min-height: 600px;
   padding: 112px 0;
 }
-/* line 290, ../sass/module/_header.scss */
+/* line 291, ../sass/module/_header.scss */
 .home__section-information .section-banner-information {
   width: 50%;
   margin: auto;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 120px;
   color: white;
 }
-/* line 298, ../sass/module/_header.scss */
+/* line 299, ../sass/module/_header.scss */
 .home__section-information .section-button-element {
   padding: 15px 40px;
   font-size: 15px;
@@ -324,21 +325,21 @@ button:hover {
   margin-right: 50px;
   margin-top: 30px;
 }
-/* line 310, ../sass/module/_header.scss */
+/* line 311, ../sass/module/_header.scss */
 .home__section-information .banner-information-title {
   font-size: 4vmax;
   text-transform: capitalize;
 }
-/* line 314, ../sass/module/_header.scss */
+/* line 315, ../sass/module/_header.scss */
 .home__section-information .section-information-content {
   margin: 40px 0;
 }
-/* line 318, ../sass/module/_header.scss */
+/* line 319, ../sass/module/_header.scss */
 .home__section-information .banner-information-subtitle {
   padding: 0 30px;
   font-size: 16px;
 }
-/* line 322, ../sass/module/_header.scss */
+/* line 323, ../sass/module/_header.scss */
 .home__section-information .banner-information-content {
   padding: 0 30px;
   font-size: 16px;
@@ -346,32 +347,32 @@ button:hover {
   text-align: center;
   text-indent: 50px;
 }
-/* line 330, ../sass/module/_header.scss */
+/* line 331, ../sass/module/_header.scss */
 .home__section-information .banner-information-menu {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   gap: 20px;
 }
-/* line 338, ../sass/module/_header.scss */
+/* line 339, ../sass/module/_header.scss */
 .home__section-information .banner-information-item {
   display: flex;
 }
-/* line 342, ../sass/module/_header.scss */
+/* line 343, ../sass/module/_header.scss */
 .home__section-information .banner-information-link {
   display: flex;
   text-decoration: none;
   color: white;
   font-weight: 700;
 }
-/* line 348, ../sass/module/_header.scss */
+/* line 349, ../sass/module/_header.scss */
 .home__section-information .banner-information-icon {
   display: inline-flex;
   margin-right: 8px;
 }
 
 @media only screen and (max-width: 1680px) {
-  /* line 359, ../sass/module/_header.scss */
+  /* line 360, ../sass/module/_header.scss */
   .home__section-banner {
     width: 100%;
     height: auto;
@@ -381,63 +382,68 @@ button:hover {
     flex-direction: column;
   }
 
-  /* line 367, ../sass/module/_header.scss */
+  /* line 368, ../sass/module/_header.scss */
   .home__section-information .section-banner-information {
     padding-top: 60px;
   }
 
-  /* line 371, ../sass/module/_header.scss */
+  /* line 372, ../sass/module/_header.scss */
   .home__section-banner .section-banner-card {
     justify-content: center !important;
   }
 
-  /* line 374, ../sass/module/_header.scss */
+  /* line 375, ../sass/module/_header.scss */
   .home__section-banner .section-banner-container {
     align-items: center !important;
     display: flex;
     flex-direction: column;
   }
 
-  /* line 379, ../sass/module/_header.scss */
+  /* line 381, ../sass/module/_header.scss */
   .home__section-banner .section-banner-title {
     font-size: 40px;
   }
+
+  /* line 384, ../sass/module/_header.scss */
+  .home__section-information {
+    padding: 50px 0;
+  }
 }
-/* line 384, ../sass/module/_header.scss */
+/* line 391, ../sass/module/_header.scss */
 .home-banner-btn {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-/* line 390, ../sass/module/_header.scss */
+/* line 397, ../sass/module/_header.scss */
 .home-banner-btn__button-element {
   width: auto;
   padding: 15px;
   border: none;
 }
-/* line 394, ../sass/module/_header.scss */
+/* line 401, ../sass/module/_header.scss */
 .home-banner-btn__button-element span a {
   text-transform: uppercase;
   color: #3B5998;
 }
-/* line 401, ../sass/module/_header.scss */
+/* line 408, ../sass/module/_header.scss */
 .home-banner-btn .button--white {
   background: white;
 }
-/* line 405, ../sass/module/_header.scss */
+/* line 412, ../sass/module/_header.scss */
 .home-banner-btn .button--orange {
   background: #f39c12;
 }
 
-/* line 411, ../sass/module/_header.scss */
+/* line 418, ../sass/module/_header.scss */
 .btn--center {
   display: flex;
   justify-content: center;
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 416, ../sass/module/_header.scss */
+  /* line 427, ../sass/module/_header.scss */
   .home__section-information .banner-information-subtitle,
   .home__section-information .banner-information-content,
   .home__section-information .banner-information-menu {
@@ -445,94 +451,111 @@ button:hover {
     font-size: 16px;
   }
 
-  /* line 422, ../sass/module/_header.scss */
+  /* line 433, ../sass/module/_header.scss */
   .home__section-information .banner-information-title {
     font-size: 22px;
     margin: 0;
   }
 }
 @media only screen and (max-width: 530px) {
-  /* line 429, ../sass/module/_header.scss */
+  /* line 440, ../sass/module/_header.scss */
   .home-banner-btn {
     justify-content: center;
   }
 
-  /* line 433, ../sass/module/_header.scss */
+  /* line 444, ../sass/module/_header.scss */
   .home__section-banner .section-banner-title {
     font-size: 25px;
   }
 
-  /* line 436, ../sass/module/_header.scss */
+  /* line 447, ../sass/module/_header.scss */
   .home__section-banner .section-banner-content {
     font-size: 18px;
     text-align: center;
   }
 }
 @media only screen and (max-width: 760px) {
-  /* line 445, ../sass/module/_header.scss */
+  /* line 457, ../sass/module/_header.scss */
   .home__section-banner .section-banner-title {
     font-size: 25px;
   }
 
-  /* line 449, ../sass/module/_header.scss */
+  /* line 461, ../sass/module/_header.scss */
   .home__section-banner .section-banner-content {
     font-size: 18px;
     text-align: center;
   }
 
-  /* line 453, ../sass/module/_header.scss */
+  /* line 465, ../sass/module/_header.scss */
   .home__section-information .banner-information-subtitle {
     font-size: 14px;
   }
 
-  /* line 457, ../sass/module/_header.scss */
+  /* line 469, ../sass/module/_header.scss */
   .home__section-information .banner-information-content {
     font-size: 12px;
   }
 
-  /* line 461, ../sass/module/_header.scss */
+  /* line 473, ../sass/module/_header.scss */
   .home__section-information .banner-information-link {
     font-size: 12px;
   }
 }
 @media only screen and (max-width: 766px) {
-  /* line 467, ../sass/module/_header.scss */
+  /* line 480, ../sass/module/_header.scss */
   .home-banner-btn__button-element {
     width: 100%;
   }
 
-  /* line 472, ../sass/module/_header.scss */
+  /* line 484, ../sass/module/_header.scss */
   .home__actualite .section-button-element {
     width: 89%;
     justify-content: center;
   }
 
-  /* line 476, ../sass/module/_header.scss */
+  /* line 489, ../sass/module/_header.scss */
   .home__actualite .section-button-element a {
     text-align: center;
   }
 
-  /* line 479, ../sass/module/_header.scss */
+  /* line 493, ../sass/module/_header.scss */
   .home__header .second-header-image {
     width: 110px;
   }
 
-  /* line 482, ../sass/module/_header.scss */
+  /* line 497, ../sass/module/_header.scss */
   .home-banner-btn {
     width: 100%;
   }
 }
 @media only screen and (max-width: 920px) {
-  /* line 489, ../sass/module/_header.scss */
+  /* line 504, ../sass/module/_header.scss */
   .home__section-information .section-banner-information {
     width: 100%;
     text-align: center;
     padding-top: 40px;
   }
 
-  /* line 495, ../sass/module/_header.scss */
+  /* line 510, ../sass/module/_header.scss */
   .home__section-information {
     padding: 60px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  /* line 517, ../sass/module/_header.scss */
+  .home__section-banner .section-banner-container {
+    padding: 20px 0;
+    padding-bottom: 87px;
+  }
+
+  /* line 522, ../sass/module/_header.scss */
+  .home__section-information .section-banner-information {
+    padding-top: 0;
+  }
+
+  /* line 525, ../sass/module/_header.scss */
+  .home__actualite {
+    padding-top: 0;
   }
 }
 /* line 4, ../sass/module/_section.scss */
@@ -635,11 +658,10 @@ button:hover {
 }
 /* line 98, ../sass/module/_section.scss */
 .home__actualite {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: linear-gradient(to bottom, rgba(9, 24, 56, 0.916), rgba(11, 54, 73, 0.922)), url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
   background-size: cover;
-  min-height: 900px;
 }
 /* line 105, ../sass/module/_section.scss */
 .home__actualite .actualite-title {
@@ -789,39 +811,38 @@ button:hover {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
 }
-/* line 262, ../sass/module/_section.scss */
+/* line 261, ../sass/module/_section.scss */
 .home__temoignage .temoignage-item figure {
   width: 170px;
   height: 170px;
 }
-/* line 266, ../sass/module/_section.scss */
+/* line 265, ../sass/module/_section.scss */
 .home__temoignage .temoignage-item figure img {
   width: 100%;
   height: 100%;
 }
-/* line 271, ../sass/module/_section.scss */
+/* line 270, ../sass/module/_section.scss */
 .home__temoignage .temoignage-item-content {
   width: 414px;
 }
-/* line 275, ../sass/module/_section.scss */
+/* line 274, ../sass/module/_section.scss */
 .home__temoignage .fa-quote-right {
   color: #f39c12;
   font-size: 30px;
 }
-/* line 279, ../sass/module/_section.scss */
+/* line 278, ../sass/module/_section.scss */
 .home__temoignage .temoignage-item-media {
   display: flex;
   align-items: center;
   margin-top: -26px;
 }
-/* line 286, ../sass/module/_section.scss */
+/* line 285, ../sass/module/_section.scss */
 .home__temoignage .temoignage-item-count {
   font-size: 18px;
   color: dimgray;
 }
-/* line 293, ../sass/module/_section.scss */
+/* line 292, ../sass/module/_section.scss */
 .home__temoignage .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -831,18 +852,19 @@ button:hover {
   margin: 5px 12px;
   border-radius: 50%;
 }
-/* line 305, ../sass/module/_section.scss */
+/* line 304, ../sass/module/_section.scss */
 .home__temoignage .temoignage-button {
   text-align: center;
   padding: 115px;
 }
-/* line 311, ../sass/module/_section.scss */
+/* line 310, ../sass/module/_section.scss */
 .home__temoignage .section-button-element {
   background: #393f58;
   padding: 15px;
   display: flex;
   margin: auto;
   border: none;
+  margin-top: 40px;
 }
 /* line 319, ../sass/module/_section.scss */
 .home__temoignage .section-button-element a {
@@ -853,26 +875,51 @@ button:hover {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 830px) {
-  /* line 332, ../sass/module/_section.scss */
-  .home__actualite .actualite-wrapper {
+@media only screen and (max-width: 400px) {
+  /* line 333, ../sass/module/_section.scss */
+  .home__service-gallery .service-gallery-image {
+    height: 230px;
+  }
+
+  /* line 336, ../sass/module/_section.scss */
+  .home__temoignage .temoignage-item-content p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  /* line 342, ../sass/module/_section.scss */
+  .home__temoignage .section-button-element {
+    display: flex;
+    margin: auto;
+    width: 89%;
     justify-content: center;
   }
 }
+@media only screen and (max-width: 830px) {
+  /* line 352, ../sass/module/_section.scss */
+  .home__actualite .actualite-wrapper {
+    justify-content: center;
+  }
+
+  /* line 356, ../sass/module/_section.scss */
+  .home__temoignage .temoignage-item-content p {
+    font-size: 14px;
+  }
+}
 @media only screen and (max-width: 1280px) {
-  /* line 339, ../sass/module/_section.scss */
+  /* line 362, ../sass/module/_section.scss */
   .home__service-gallery .service-gallery-image {
     width: 100%;
     margin: auto;
   }
 
-  /* line 343, ../sass/module/_section.scss */
+  /* line 366, ../sass/module/_section.scss */
   .home__service-gallery .service-end-item,
   .home__service-gallery .service-start-item {
     display: block;
   }
 
-  /* line 349, ../sass/module/_section.scss */
+  /* line 372, ../sass/module/_section.scss */
   .home__service-gallery .service-gallery-content {
     background: #f39c12;
     background-color: #f39c12;
@@ -884,106 +931,104 @@ button:hover {
     font-size: 14px;
   }
 
-  /* line 360, ../sass/module/_section.scss */
+  /* line 383, ../sass/module/_section.scss */
   .home__service-gallery .service-end-item .service-gallery-couverture,
   .home__service-gallery .service-start-item .service-gallery-couverture {
     width: 100%;
     position: static;
   }
 
-  /* line 367, ../sass/module/_section.scss */
+  /* line 390, ../sass/module/_section.scss */
   .home__service-gallery .service-gallery-icon,
   .home__service-gallery .service-start-item:nth-child(2) .service-gallery-icon {
     display: none;
   }
 
-  /* line 373, ../sass/module/_section.scss */
+  /* line 396, ../sass/module/_section.scss */
   .home__service-gallery .service-gallery-container {
     gap: 100px;
   }
 
-  /* line 376, ../sass/module/_section.scss */
+  /* line 399, ../sass/module/_section.scss */
   .home__service-gallery .service-gallery-image {
     height: 350px;
   }
 }
-@media only screen and (max-width: 400px) {
-  /* line 382, ../sass/module/_section.scss */
-  .home__service-gallery .service-gallery-image {
-    height: 230px;
-  }
-}
 /* line 2, ../sass/module/_footer.scss */
+.home__footer > * {
+  padding: 0 40px;
+}
+/* line 5, ../sass/module/_footer.scss */
 .home__footer {
   display: flex;
   position: relative;
   background-color: #135e96;
   background: linear-gradient(to bottom, rgba(15, 43, 99, 0.92), rgba(8, 34, 85, 0.92));
   padding: 100px;
-  justify-content: space-around;
+  justify-content: start;
   gap: 13px;
   flex-wrap: wrap;
   padding: 16px;
 }
-/* line 13, ../sass/module/_footer.scss */
+/* line 16, ../sass/module/_footer.scss */
 .home__footer ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 18, ../sass/module/_footer.scss */
+/* line 21, ../sass/module/_footer.scss */
 .home__footer a {
   text-decoration: none;
   color: #fff;
 }
-/* line 22, ../sass/module/_footer.scss */
+/* line 25, ../sass/module/_footer.scss */
 .home__footer h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
   padding: 20px 0;
 }
-/* line 30, ../sass/module/_footer.scss */
+/* line 33, ../sass/module/_footer.scss */
 .home__footer .footer-contact {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
-/* line 36, ../sass/module/_footer.scss */
+/* line 39, ../sass/module/_footer.scss */
 .home__footer .footer-contact ul li {
   font-weight: 600;
 }
-/* line 40, ../sass/module/_footer.scss */
+/* line 43, ../sass/module/_footer.scss */
 .home__footer .footer-contact-item {
   margin: 20px 0;
 }
-/* line 43, ../sass/module/_footer.scss */
+/* line 46, ../sass/module/_footer.scss */
 .home__footer .footer-contact-item a {
   display: flex;
 }
-/* line 46, ../sass/module/_footer.scss */
+/* line 49, ../sass/module/_footer.scss */
 .home__footer .footer-contact-item a span {
   display: inline-flex;
   margin-left: 10px;
 }
-/* line 52, ../sass/module/_footer.scss */
+/* line 55, ../sass/module/_footer.scss */
 .home__footer .footer-lien-utile ul li {
   margin: 15px 0;
   font-weight: 600;
 }
-/* line 56, ../sass/module/_footer.scss */
+/* line 59, ../sass/module/_footer.scss */
 .home__footer .footer-logo-certifications ul {
   display: flex;
 }
-/* line 60, ../sass/module/_footer.scss */
+/* line 63, ../sass/module/_footer.scss */
 .home__footer .footer-logo-certifications ul li img {
   height: 50px;
   margin-right: 20px;
 }
-/* line 66, ../sass/module/_footer.scss */
+/* line 69, ../sass/module/_footer.scss */
 .home__footer .footer-social-network .social-network {
   display: flex;
 }
-/* line 71, ../sass/module/_footer.scss */
+/* line 74, ../sass/module/_footer.scss */
 .home__footer .fa {
   padding: 10px;
   font-size: 20px;
@@ -993,26 +1038,26 @@ button:hover {
   margin: 5px 12px;
   border-radius: 50%;
 }
-/* line 81, ../sass/module/_footer.scss */
+/* line 84, ../sass/module/_footer.scss */
 .home__footer .fa:hover {
   opacity: 0.7;
 }
-/* line 85, ../sass/module/_footer.scss */
+/* line 88, ../sass/module/_footer.scss */
 .home__footer .fa-facebook {
   background: #3B5998;
   color: white;
 }
-/* line 90, ../sass/module/_footer.scss */
+/* line 93, ../sass/module/_footer.scss */
 .home__footer .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-/* line 95, ../sass/module/_footer.scss */
+/* line 98, ../sass/module/_footer.scss */
 .home__footer .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-/* line 100, ../sass/module/_footer.scss */
+/* line 103, ../sass/module/_footer.scss */
 .home__footer .footer-boutton {
   position: absolute;
   width: 60px;
@@ -1025,7 +1070,14 @@ button:hover {
   bottom: 12px;
   right: 22px;
 }
-/* line 112, ../sass/module/_footer.scss */
+/* line 115, ../sass/module/_footer.scss */
 .home__footer .footer-boutton:hover {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 650px) {
+  /* line 121, ../sass/module/_footer.scss */
+  .home__footer {
+    padding: 16px 10%;
+  }
 }

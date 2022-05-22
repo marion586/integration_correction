@@ -96,12 +96,12 @@
     }
 
     &__actualite {
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background: linear-gradient(to bottom, rgba(9, 24, 56, 0.916), rgba(11, 54, 73, 0.922)),
         url(../../img/Groupe\ 42/background_section1.png) center top no-repeat;
         background-size: cover;
-        min-height: 900px;
+        // min-height: 900px;
         .actualite-title {
             text-align: center;
             line-height: 1;
@@ -257,7 +257,6 @@
                 gap: 30px;
                 flex-wrap: wrap;
                 justify-content: center;
-                width: 100%;
             }
             .temoignage-item figure {
                 width: 170px;
@@ -314,6 +313,7 @@
                 display: flex;
                 margin: auto;
                 border: none;
+                margin-top: 40px;
             }
             
             .section-button-element a {
@@ -327,11 +327,34 @@
         }
 }
 
+// media screen resonsive
+
+@media only screen and (max-width:400px) {
+    .home__service-gallery .service-gallery-image {
+        height: 230px;
+    }
+    .home__temoignage .temoignage-item-content p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .home__temoignage .section-button-element {
+        display: flex;
+        margin: auto;
+        width: 89%;
+        justify-content: center;
+    }
+}
+
 
 @media only screen and (max-width:830px) {
     .home__actualite .actualite-wrapper {
         justify-content: center;
         
+    }
+    .home__temoignage .temoignage-item-content p {
+        font-size: 14px;
     }
 }
 
@@ -378,9 +401,4 @@
     }
 }
 
-@media only screen and (max-width:400px) {
-    .home__service-gallery .service-gallery-image {
-        height: 230px;
-    }
-}
 
